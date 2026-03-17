@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Proyecto: Animales del Mundo</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  color: #FF47BE;
+}
+
+h1{
+  color: #FF47BE;
+}
+
+.nombre{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.descripcion{
+  width: 70%;
+  margin: auto;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+table{
+  margin: auto;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #FF47BE;
+  color: white;
+}
+
+td{
+  padding: 10px;
+}
+
+img{
+  border-radius: 100px;
+}
+</style>
+
+</head>
+
+<body>
+
+<p class="nombre">Nombre: Lissete Fuentes Becerril</p>
+
+<h1>Proyecto: Animales del Mundo</h1>
+
+<p class="descripcion">
+Este proyecto consiste en una tabla informativa sobre diferentes animales del mundo.
+En ella se muestran sus nombres, una breve descripción y una imagen representativa.
+El objetivo es aprender a utilizar tablas en HTML, insertar imágenes y aplicar estilos
+con CSS para mejorar la presentación de una página web.
+</p>
+
+<table>
+<tr>
+<th>ANIMALES</th>
+<th>DESCRIPCIÓN</th>
+<th>IMAGEN</th>
+</tr>
+
+<tr>
+<td>FLAMINGO</td>
+<td>
+Un flamenco es un tipo de ave acuática zancuda, inconfundible por sus patas largas, cuello largo y plumaje rosado.
+</td>
+<td>
+<img src="FLAMINGO.png" alt="FLAMINGO" width="300" height="300">
+</td>
+</tr>
+
+<tr>
+<td>CABALLO</td>
+<td>
+Un caballo es un mamífero herbívoro cuadrúpedo conocido por su fuerza y velocidad.
+</td>
+<td>
+<img src="CABALLO.png" alt="CABALLO" width="300" height="300">
+</td>
+</tr>
+
+<tr>
+<td>TORTUGA MARINA</td>
+<td>
+Las tortugas marinas son reptiles caracterizados por su caparazón protector y su vida en el océano.
+</td>
+<td>
+<img src="TORTUGA.png" alt="TORTUGA" width="300" height="300">
+</td>
+</tr>
+
+<tr>
+<td>LEÓN</td>
+<td>
+El león es un mamífero carnívoro considerado uno de los felinos más importantes del mundo.
+</td>
+<td>
+<img src="LEÓN.png" alt="LEÓN" width="300" height="300">
+</td>
+</tr>
+
+<tr>
+<td>ORCA</td>
+<td>
+La orca es el delfín más grande del planeta y habita en todos los océanos.
+</td>
+<td>
+<img src="ORCA.png" alt="ORCA" width="300" height="300">
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
